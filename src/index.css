@@ -14,7 +14,8 @@ body {
 #mockups {
     background-image: url('./assets/img/bg-intro-desktop.svg');
     background-repeat: no-repeat;
-    background-position: 270% 55%;
+    background-size: 75%;
+    background-position: 200% 80%;
 }
 
 @media (max-width: 1024px) {
@@ -24,7 +25,8 @@ body {
     #mockups-sm {
       background-image: url('./assets/img/bg-intro-desktop.svg');
       background-repeat: no-repeat;
-      background-position: 90% 125%;
+      background-size: 150%;
+      background-position: 35% 125%;
     }
 }
 
@@ -32,6 +34,7 @@ body {
     #mockups-sm {
       background-image: url('./assets/img/bg-intro-mobile.svg');
       background-repeat: no-repeat;
+      background-size: 100%;
       background-position: right top;
     }
 }
